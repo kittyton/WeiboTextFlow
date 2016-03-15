@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <!--<link href="css/index.css" rel="stylesheet" type="text/css"/>-->
+    <script type="text/javascript" src="js/d3.v3.min.js"></script>
+    <script type="text/javascript" src="js/jquery-2.1.3.min.js"></script>
+    <script type="text/javascript" src="js/d3.layout.cloud.js"></script>
+    <style type="text/css">
+        #lyllist{
+            position: absolute;
+            left: 420px;
+            top: 420px;
+        }
+        body {
+            font: 10px sans-serif;
+        }
+
+        .axis path,
+        .axis line {
+            fill: none;
+            stroke: #000;
+            shape-rendering: crispEdges;
+        }
+
+        .x.axis path {
+            /*display: none;*/
+            fill: none;
+            stroke: #000;
+            /* stroke-width: 1.5px;*/
+        }
+
+        .line {
+            fill: none;
+            stroke: steelblue;
+            stroke-width: 1.5px;
+        }
+
+        #chartLYP{
+            position: absolute;
+            left: 620px;
+            top: 0;
+        }
+        .weiboDataList{
+            font-family: Microsoft Yahei;
+            margin: 4px;
+            padding: 3px;
+            font-size: 19px;
+            background: #ecf0f5;
+            color: #34495e;
+        }
+    </style>
+</head>
+<body>
+<div id="china_map"></div>
+<div id="wordle"></div>
+<div id="lyllist"></div>
+
+<div id="chartLYP"></div>
+
+<!--
+<link href="css/donut.css" rel="stylesheet" type="text/css" />-->
+
+<script type="text/javascript" src="js/china.js"></script>
+
+<script type="text/javascript" src="js/wordle.js"></script>
+
+<script src="js/emotionLine.js"></script>
+
+</body>
+</html>

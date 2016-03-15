@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="js/jquery-2.1.3.min.js"></script>
+    <script src="js/d3.v3.min.js"></script>
+    <!-- Weibo Scroll up css -->
+    <link href="css/index.css" rel="stylesheet">
+    <!-- Donut css -->
+    <link href="css/donut.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+<!--Weibo Scroll Up -->
+<div id="scrollDiv"></div>
+
+<!-- Words Display -->
+<div id="wordsDisplay"></div>
+
+<!-- China map -->
+<div id="chinamap"></div>
+
+<!-- Donut -->
+<div id="donutDisplay">
+    <div id="motion"></div>
+
+</div>
+
+<!-- Time Axis -->
+<svg>
+    <defs>
+        <filter id="Gaussian_Blur">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="1"/>
+        </filter>
+    </defs>
+</svg>
+<a href="static.html"><div id="axisDiv" style="position: absolute;left: 30px;width: 1550px;top: 570px"></div></a>
+
+
+<script src="js/WeiboScroll.js"></script>
+<script src="js/chinamap.js"></script>
+<script src="js/words.js"></script>
+<script src="js/HDQ_axis.js"></script>
+<script src="js/Donut3D.js"></script>
+<script src="js/changedata.js"></script>
+
+</body>
+</html>
